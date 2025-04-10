@@ -67,7 +67,8 @@ if input_source:
 
 #### **7. Webcam Mode**
 ```python
-else:
+else:  # Webcam Mode
+    cap = cv2.VideoCapture(0)
 ```
 - If no file is provided, the webcam is activated.
 - It captures video from the camera and runs detection on each frame in real-time.
