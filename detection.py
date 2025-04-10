@@ -11,8 +11,7 @@ classnames = ["Fall", "Sitting", "Falling", "Standing"]
 # - Set to a video file path (e.g., "fall_vdo_testing.mp4") for video detection
 # - Set to an image file path (e.g., "test_image.jpg") for image detection
 # - Set to None for webcam mode
-input_source = None  # Change this as needed
-
+input_source = None  # 'J fall.MOV' or ''fall_vdo_testing.mp4    Change this as needed 
 # Function to process frames (for video, webcam, and images)
 def process_frame(frame):
     results = model(frame)
