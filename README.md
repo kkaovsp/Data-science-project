@@ -32,7 +32,7 @@ classnames = ["Fall", "Sitting", "Falling", "Standing"]
 
 #### **4. Set the Input Source**
 ```python
-input_source = None
+input_source = None # 'video.mp4' or 'photo.jpg
 ```
 - This variable controls what the model processes:
   - `None` means it will use the webcam.
