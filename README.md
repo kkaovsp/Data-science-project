@@ -1,7 +1,3 @@
-Sure! Here's a clear and simple explanation of the code, section by section, that you can use in your **Code Appendix** or in the body of your report.
-
----
-
 ### **Code Explanation**
 
 This project uses Python with the **YOLOv8 model** (via the `ultralytics` library) and **OpenCV** to detect human postures like Standing, Sitting, and Falling in images, videos, and real-time webcam feeds.
@@ -20,7 +16,7 @@ from ultralytics import YOLO
 
 #### **2. Load the Trained Model**
 ```python
-model = YOLO('runs/detect/train/weights/best.pt')
+model = YOLO('best.pt')
 ```
 - This line loads the trained model file (`best.pt`) which was created after training the dataset on Roboflow and YOLOv8.
 
