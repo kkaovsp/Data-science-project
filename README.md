@@ -1,6 +1,6 @@
 ### **Code Explanation**
 
-This project uses Python with the **YOLOv8 model** (via the `ultralytics` library) and **OpenCV** to detect human postures like Standing, Sitting, and Falling in images, videos, and real-time webcam feeds.
+This project uses Python with the **YOLOv8 model** (via the `ultralytics` library) and `OpenCV` to detect human postures like **Standing, Sitting, and Falling in images, videos, and real-time webcam feeds**.
 
 ---
 
