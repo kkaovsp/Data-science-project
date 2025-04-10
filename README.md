@@ -82,5 +82,3 @@ cv2.destroyAllWindows()
 - After the detection ends, this closes all OpenCV display windows.
 
 ---
-
-Let me know if you'd like me to also turn this into a formatted section in your report or slides!
