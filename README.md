@@ -90,7 +90,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load trained YOLO model
-model = YOLO('runs/detect/train/weights/best.pt')  # Use your trained model
+model = YOLO('best.pt')  # Use your trained model
 
 # Class names (Ensure these match your model's classes)
 classnames = ["Fall", "Sitting", "Falling", "Standing"]
