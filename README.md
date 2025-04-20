@@ -4,6 +4,9 @@ This project uses Python with the **YOLOv8 model** (via the `ultralytics` librar
 - The code for detection is `detection.py`
 - The model from YOLO is `best.pt` 
 - The model training `main_fall_detection.ipynb`
+
+## The full code explanation is `detection.py`
+
 ---
 
 #### **1. Import Libraries**
